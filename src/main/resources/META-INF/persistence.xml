@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="io.awasi.dsmanager_dsmanager_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>io.awasi.dsmanager.entities.Studentsession</class>
+    <class>io.awasi.dsmanager.entities.Schedule</class>
+    <class>io.awasi.dsmanager.entities.Log</class>
+    <class>io.awasi.dsmanager.entities.School</class>
+    <class>io.awasi.dsmanager.entities.Studentschedule</class>
+    <class>io.awasi.dsmanager.entities.Administrator</class>
+    <class>io.awasi.dsmanager.entities.Instructorschedule</class>
+    <class>io.awasi.dsmanager.entities.Vehicle</class>
+    <class>io.awasi.dsmanager.entities.Course</class>
+    <class>io.awasi.dsmanager.entities.Schoollog</class>
+    <class>io.awasi.dsmanager.entities.Roleprivilege</class>
+    <class>io.awasi.dsmanager.entities.User</class>
+    <class>io.awasi.dsmanager.entities.Instructor</class>
+    <class>io.awasi.dsmanager.entities.Branchmanager</class>
+    <class>io.awasi.dsmanager.entities.Schooladministrator</class>
+    <class>io.awasi.dsmanager.entities.Event</class>
+    <class>io.awasi.dsmanager.entities.Student</class>
+    <class>io.awasi.dsmanager.entities.Usernotification</class>
+    <class>io.awasi.dsmanager.entities.Notification</class>
+    <class>io.awasi.dsmanager.entities.Role</class>
+    <class>io.awasi.dsmanager.entities.Branch</class>
+    <class>io.awasi.dsmanager.entities.Review</class>
+    <class>io.awasi.dsmanager.entities.Privilege</class>
+    <class>io.awasi.dsmanager.entities.Userrole</class>
+    <class>io.awasi.dsmanager.entities.Message</class>
+    <class>io.awasi.dsmanager.entities.Session</class>
+    <class>io.awasi.dsmanager.entities.Users</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/dsmanager"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
+    </properties>
+  </persistence-unit>
+</persistence>
